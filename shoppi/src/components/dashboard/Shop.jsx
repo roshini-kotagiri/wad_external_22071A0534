@@ -3,6 +3,7 @@ import img1 from '../images/img4.jpeg'
 import img2 from '../images/img5.jpeg'
 import img3 from '../images/img6.jpeg'
 import image from '../images/images.png'
+import { Link } from 'react-router-dom'
 
 function Shop() {
   return (
@@ -14,9 +15,9 @@ function Shop() {
                     <div className="card">
                         <img src={img1} className="card-img-top" alt="Card Image" />
                         <div className="card-body">
-                            <h5 className="card-title">Card 1</h5>
+                            <h5 className="card-title">Anarkali</h5>
                             <p className="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                            <a href="#" className="btn btn-primary">Add To Cart</a>
+                            <Link to="/cart" className="btn btn-primary">Add To Cart</Link>
                         </div>
                     </div>
                 </div>
@@ -24,9 +25,9 @@ function Shop() {
                     <div className="card">
                         <img src={img2} className="card-img-top" alt="Card Image" />
                         <div className="card-body">
-                            <h5 className="card-title">Card 2</h5>
+                            <h5 className="card-title">Maxi Dress</h5>
                             <p className="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                            <a href="#" className="btn btn-primary">Add To Cart</a>
+                            <Link to="/cart" className="btn btn-primary">Add To Cart</Link>
                         </div>
                     </div>
                 </div>
@@ -34,9 +35,9 @@ function Shop() {
                     <div className="card">
                         <img src={img3} className="card-img-top" alt="Card Image" />
                         <div className="card-body">
-                            <h5 className="card-title">Card 3</h5>
+                            <h5 className="card-title">Frock</h5>
                             <p className="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                            <a href="#" className="btn btn-primary">Add To Cart</a>
+                            <Link to="/cart" className="btn btn-primary">Add To Cart</Link>
                         </div>
                     </div>
                 </div>
@@ -47,9 +48,9 @@ function Shop() {
                     <div className="card">
                         <img src={img1} className="card-img-top" alt="Card Image" />
                         <div className="card-body">
-                            <h5 className="card-title">Card 4</h5>
+                            <h5 className="card-title">Anarkali</h5>
                             <p className="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-                            <a href="#" className="btn btn-primary">Add To Cart</a>
+                            <Link to="/cart" className="btn btn-primary">Add To Cart</Link>
                         </div>
                     </div>
                 </div>
@@ -57,9 +58,9 @@ function Shop() {
                     <div className="card">
                         <img src={img2} className="card-img-top" alt="Card Image" />
                         <div className="card-body">
-                            <h5 className="card-title">Card 5</h5>
+                            <h5 className="card-title">Maxi Dress</h5>
                             <p className="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                            <a href="#" className="btn btn-primary">Add To Cart</a>
+                            <Link to="/cart" className="btn btn-primary">Add To Cart</Link>
                         </div>
                     </div>
                 </div>
@@ -67,9 +68,9 @@ function Shop() {
                     <div className="card">
                         <img src={img3} className="card-img-top" alt="Card Image" />
                         <div className="card-body">
-                            <h5 className="card-title">Card 6</h5>
+                            <h5 className="card-title">Frock</h5>
                             <p className="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                            <a href="#" className="btn btn-primary">Add To Cart</a>
+                            <Link to="/cart" className="btn btn-primary">Add To Cart</Link>
                         </div>
                     </div>
                 </div>

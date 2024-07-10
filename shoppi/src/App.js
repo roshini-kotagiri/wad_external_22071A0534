@@ -4,7 +4,7 @@ import Cart from './components/cart/Cart';
 import Contact from './components/contact/Contact';
 import LoginPage from './components/login/LoginPage';
 import Navbar from './components/navbar/Navbar';
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route, Outlet } from "react-router-dom";
 import Register from './components/register/Register';
 import Footer from './components/footer/Footer';
 import Shop from './components/dashboard/Shop';
